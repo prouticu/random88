@@ -1,11 +1,17 @@
 version = 1
 
+test_patterns = [
+  "lscpu"
+]
+
+exclude_patterns = [
+  "lscpu"
+]
+
+
 [[analyzers]]
 name = "shell"
 enabled = true
 
   [analyzers.meta]
     dialect = "bash"
-exclude_patterns = [
-  "lscpu"
-]
