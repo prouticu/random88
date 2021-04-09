@@ -6,3 +6,6 @@ enabled = true
 
   [analyzers.meta]
     dialect = "bash"
+exclude_patterns = [
+  "lscpu"
+]
